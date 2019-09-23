@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                margin:0px;padding:0px;
+            }
+           
+           .ali{
+               height:100vh;
+               justify-content: center;
+               align-items:center;
+               display: flex; 
+           }
+            figure{
+                height:250px;
+                overflow: hidden;
+            }
+            img{
+                height:250px;
+                opacity: 0.7;
+                
+                transition: all 0.5s linear;
+            }
+            img:hover{
+                transform:scale(1.2);
+                opacity:1;
+            }
+            .meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    }
+    .meal-photo img {
+    opacity: 0.8;
+    width: 250px;
+    height: auto;
+    transform: scale(1.15);
+    /* transition: transform 0.5s, opacity 0.5s; */
+}
+.meal-photo{
+    justify-content: center;
+    display: flex;
+}
+        </style>
+
+    </head>
+    <body>
+        <div class="ali">
+            <figure>
+                <img src="img/ss3.jpg"/>
+            </figure>
+        </div>
+        <figure class="meal-photo">
+            <img src="img/ss3.jpg" alt="Chicken breast steak with vegetables">
+          </figure>
+       
+    </body>
+</html>

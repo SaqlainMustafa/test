@@ -1,0 +1,127 @@
+body{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+
+
+nav ul li {
+float:left;
+padding:20px;
+list-style: none;
+}
+
+
+ 
+li a{
+    text-decoration: none;
+    color:hotpink;
+    margin-left:80px;
+    font-size:15px;
+}
+nav{
+ 
+    width:100%;
+    
+}
+h1{
+    font-family: monospace;
+    text-align: center;
+    color:hotpink;
+}
+footer{
+    height:300px;
+    width:100%;
+    background-color:#282C2F;
+    margin-left:0px !important;
+    margin-right:0px !important;
+    /* position: fixed; */
+   left: 0;
+  
+}
+h2{
+    color:orange;
+    text-align:center;
+    height:50px;
+}
+.fot{
+    float:left;
+    width:31%;
+    
+}
+.lin{
+    color:white;
+    text-align:center;
+    line-height:25px;
+    /* text-align: justify; */
+}
+.About,.Links,.Address{
+	float:none;
+	width:98.1%;
+	padding-top:20px;
+    padding-bottom:20px;
+    
+	
+}
+.mar{
+    
+    margin-left:100px;
+}
+.About,.Links,.Address{
+	float:left;
+	width:29.5%;
+	margin-left:1%;
+	margin-top:20px;
+    padding-right:35px;
+    color:white;
+}
+.marker{
+	width:40px;
+	height:40px;
+	text-align:center;
+	display:inline-block;
+	background-color:#6a5c5c;
+	border-radius:50%;
+	margin-right:10px;
+}
+.clear{
+    clear:both;
+}
+.au{
+   text-align:center
+}
+.pro{
+    width:25%;
+    float:left;
+}
+.pro img{
+    /* border:1px solid hotpink; */
+    box-shadow: 0px 10px #888888;
+    height:250px;
+    width:250px;
+ 
+    
+}
+.subpro{
+    /* color:white; */
+    text-align: center;
+    font-weight:bold;
+    
+}
+.ali{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+figure{
+    height:250px;
+    overflow: hidden;
+}
+img{
+    height:250px;
+    transition: all 0.5s linear;
+}
+img:hover{
+    transform:scale(1.2);
+}
